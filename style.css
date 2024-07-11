@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.hero-content .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#about .about-image img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#about .about-text {
+    max-width: 600px;
+}
+
+#services .service-card {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 20px;
+}
+
+#services .service-card img {
+    width: 100%;
+    height: auto;
+}
+
+#testimonials .testimonial {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 20px;
+}
+
+#testimonials .testimonial img {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .contact-info,
+footer .quick-links {
+    margin-top: 10px;
+}
+
+footer .quick-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
